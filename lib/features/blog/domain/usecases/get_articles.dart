@@ -17,7 +17,7 @@ class GetArticles extends UseCase<List<Article>, GetArticlesParam> {
   }
 }
 
-class GetArticlesParam extends Equatable{
+class GetArticlesParam extends Equatable{GetBlogParams  
 
   final List<String>? tags;
   final String? searchParams;
